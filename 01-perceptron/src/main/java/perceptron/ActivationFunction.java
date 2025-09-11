@@ -1,4 +1,5 @@
 package perceptron;
 
-public class ActivationFunction {
+public interface ActivationFunction {
+    int activate (double value);
 }
